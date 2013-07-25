@@ -24,7 +24,7 @@ phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
 - Open `index.html and add a button
 
 ```html
-<button onclick="myPlugin.sayHello();">Say Hello</button>
+<button onclick="myPlugin.sayHello();">Say hello to your plugin!</button>
 ```
 
 - Register plugin within `config.xml` of your app
@@ -39,7 +39,7 @@ phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
 
 ```bash
 phonegap run ios
-```
+``
 
 ## Author
 Jens Krause // [WEBSECTOR.DE](http://www.websector.de)
