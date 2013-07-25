@@ -39,7 +39,7 @@ phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
 
 ```bash
 phonegap run ios
-``
+```
 
 ## Author
 Jens Krause // [WEBSECTOR.DE](http://www.websector.de)
