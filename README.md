@@ -1,7 +1,7 @@
 # Example of a native iOS plugin for using PhoneGap 3.0.
 
-[Phonegap 3.0 introduces](http://phonegap.com/blog/2013/07/19/adobe-phonegap-3.0-released/) a new plugin architecture. With this release any custom plugin can be installed 
-by using [PhoneGaps CLI](https://github.com/mwbrooks/phonegap-cli) or [Cordova Plugman](https://github.com/apache/cordova-plugman/). 
+[PhoneGap 3.0 introduces](http://phonegap.com/blog/2013/07/19/adobe-phonegap-3.0-released/) a new plugin architecture. With this release any custom plugin can be installed 
+by using [PhoneGap's CLI](https://github.com/mwbrooks/phonegap-cli) or [Cordova Plugman](https://github.com/apache/cordova-plugman/). 
 
 For a better understanding of the changes of PhoneGap 3.0 this repository provides a very simple native iOS plugin.
 
@@ -9,7 +9,7 @@ For a better understanding of the changes of PhoneGap 3.0 this repository provid
 
 - Make sure that you have [Node](http://nodejs.org/) and [PhoneGap CLI](https://github.com/mwbrooks/phonegap-cli) installed on your machine.
 
-- Create your phonegap example app
+- Create your PhoneGap example app
 
 ```bash
 phonegap create my-plugin-example-app && cd $_
@@ -21,7 +21,7 @@ phonegap create my-plugin-example-app && cd $_
 phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
 ```
 
-- Open `index.html and add a button
+- Open `index.html` and add a button
 
 ```html
 <button onclick="myPlugin.sayHello();">Say hello to your plugin!</button>
