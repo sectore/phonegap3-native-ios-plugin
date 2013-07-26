@@ -10,7 +10,7 @@ MyPlugin.prototype.sayHello = function() {
       alert(result);
     },
     function(error){
-      // result handler
+      // error handler
       alert("Error" + error);
     }, 
     "MyPlugin", 
