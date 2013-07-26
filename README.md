@@ -5,6 +5,10 @@ by using [PhoneGap's CLI](https://github.com/mwbrooks/phonegap-cli) or [Cordova 
 
 For a better understanding of the changes of PhoneGap 3.0 this repository provides a very simple native iOS plugin.
 
+## Screen shot
+
+[![screen shot](https://raw.github.com/sectore/phonegap3-native-ios-plugin/master/assets/phonegap3-native-ios-plugin-screenshot.png)](https://github.com/sectore/phonegap3-native-ios-plugin)
+
 ## Installation
 
 - Make sure that you have [Node](http://nodejs.org/) and [PhoneGap CLI](https://github.com/mwbrooks/phonegap-cli) installed on your machine.
@@ -21,7 +25,7 @@ phonegap create my-plugin-example-app && cd $_
 phonegap local plugin add https://github.com/sectore/phonegap3-native-ios-plugin
 ```
 
-- Open `index.html` and add a button
+- Open `index.html and add a button
 
 ```html
 <button onclick="myPlugin.sayHello();">Say hello to your plugin!</button>
