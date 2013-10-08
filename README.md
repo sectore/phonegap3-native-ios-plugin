@@ -47,3 +47,6 @@ phonegap run ios
 
 ## Author
 Jens Krause // [WEBSECTOR.DE](http://www.websector.de)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sectore/phonegap3-native-ios-plugin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
